@@ -1,0 +1,40 @@
+.description-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.title {
+  font-size: 60px;
+  white-space: pre-line;
+  color: #0f2167;
+  margin: 30px;
+}
+
+.desc-content {
+  font-size: 32px;
+  max-width: 400px;
+}
+
+.icons-container {
+  
+}
+
+.icon {
+  width: 50px;
+  padding: 20px;
+}

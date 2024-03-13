@@ -1,0 +1,39 @@
+ /*#FFECD6 #0f2167*/
+.navbar {
+  background-color: #0f2167;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  z-index: 20;
+  justify-content: center;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.nav-items {
+  list-style-type: none;
+  padding: 50px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent; /* Bordi inizialmente trasparenti */
+  transition: border-bottom 0.5s ease; /* Transizione del bordo */
+  padding-bottom: 2px;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid white; /* Cambio di colore al passaggio del mouse */
+}
+
+.nav-links:focus,
+.nav-links:active {
+  border-bottom: 2px solid white; /* Stile del bordo quando il link è in focus o attivo */
+}
