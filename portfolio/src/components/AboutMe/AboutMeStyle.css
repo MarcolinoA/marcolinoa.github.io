@@ -1,3 +1,16 @@
+.skills-container {
+  margin-top: -130px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
 .aboutme-container {
   display: flex;
   flex-direction: column;
@@ -29,38 +42,15 @@
   flex-direction: column;
   text-align: center;
   letter-spacing: 0.1px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 .presentation-title {
+  margin-top: 40px;
   font-size: 24px;
 }
 
 .presentation-desc {
   font-size: 20px;
-  margin-top: 0px;
-}
-
-.skills-container {
-  margin-top: -130px;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 30%;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-
-.skill-first-section {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-
-.icons {
-  width: 80px;
+  margin: 0px 50px;
 }

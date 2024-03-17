@@ -1,0 +1,41 @@
+.first-section,
+.lenguages-container,
+.tools-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.icon-container {
+  background-color: #0f2167;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 30px 0px;
+}
+
+.icons {
+  width: 60px;
+  color: white;
+}
+
+.title {
+  color: #0f2167;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.p,
+.tools-list {
+  font-size: 20px;
+}
+
+.tools-list {
+  text-align: center;
+  padding: 0;
+}
+
+.tool {
+  list-style-type: none;
+}

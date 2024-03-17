@@ -1,8 +1,8 @@
 import React from "react";
-import "./AboutMeStyle.css";
-import GithubIcon from "../Home/Icons/GithubIcon";
+import "./AboutMeStyle.css"; 
 import image from "../Home/Description/coachProva.jpg";
-import FrontendIcon from "./Frontend";
+import FrontendDeveloper from "./cards/FrontendDeveloper";
+import Enthusiast from "./cards/Enthusiast";
 
 const AboutMe = () => {
   return (
@@ -25,26 +25,8 @@ const AboutMe = () => {
       </div>
 
       <div className="skills-container">
-        <div className="skill-first-section">
-          <FrontendIcon className={"icons"} />
-          <h4 className="first-skill-title">Frontend Developer</h4>
-          <p className="first-skill-p">
-            I like to code things from scratch, and enjoy bringing ideas to life
-            in the browser.
-          </p>
-        </div>
-        <div className="lenguages-container">
-          <h4 className="lenguages-title">Lenguages: </h4>
-          <p className="lenguages-list">HTML, CSS, Javascript, React</p>
-        </div>
-        <div className="tools-container">
-          <h4 className="tools-title">Dev Tools: </h4>
-          <ul className="tools-list">
-            <li className="tool">Git</li>
-            <li className="tool">Github</li>
-            <li className="tool">VsCode</li>
-          </ul>
-        </div>
+        <FrontendDeveloper />
+        <Enthusiast />
       </div>
     </div>
   );
