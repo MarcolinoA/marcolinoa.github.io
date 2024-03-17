@@ -15,7 +15,7 @@ function Navbar() {
       <div className="nav-container">
         <ul className="nav-item">
           <li className="nav-items">
-            <NavLink exact to="/" className={`nav-links`} activeClassName="active">
+            <NavLink exact to="/aboutme" className={`nav-links`} activeClassName="active">
               About Me
             </NavLink>
           </li>

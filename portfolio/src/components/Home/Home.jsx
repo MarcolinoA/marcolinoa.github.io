@@ -1,10 +1,8 @@
-import React from 'react'
-import Description from '../Description/Description'
+import React from "react";
+import Description from "./Description/Description";
 
 const Home = () => {
-  return (
-    <Description />
-  )
-}
+  return <Description />;
+};
 
-export default Home
+export default Home;
