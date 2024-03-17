@@ -1,4 +1,4 @@
- /*#FFECD6 #0f2167*/
+/*#FFECD6 #0f2167*/
 .navbar {
   background-color: #0f2167;
   height: 110px;
@@ -30,11 +30,14 @@
   padding-bottom: 2px;
 }
 
-.nav-links:hover {
-  border-bottom: 2px solid white; /* Cambio di colore al passaggio del mouse */
-}
-
+.nav-links:hover,
 .nav-links:focus,
 .nav-links:active {
   border-bottom: 2px solid white; /* Stile del bordo quando il link è in focus o attivo */
+}
+
+.nav-links:focus {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutMeStyle.css"; 
+import "./AboutMeStyle.css";
 import image from "../Home/Description/coachProva.jpg";
 import FrontendDeveloper from "./cards/FrontendDeveloper";
 import Enthusiast from "./cards/Enthusiast";
@@ -17,10 +17,12 @@ const AboutMe = () => {
           I'm a frontend developer and coding enthusiast
         </h2>
         <h2 className="presentation-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          voluptatem numquam adipisci, reiciendis architecto aspernatur ducimus
-          neque placeat tempore esse repudiandae perferendis inventore commodi
-          enim beatae excepturi quisquam fugiat! Neque.
+          I’m a fourth year student, I just started my journey in the world of
+          coding, for now I write code for static sites but I’m studying to
+          implement the backend and my knowledge in general. I dream that this
+          can become my job and I’ll do everything to make it happen. Sono
+          pronto a sviluppare siti nei linguaggi menzionati giu ma non mi
+          spaventa il confronto con altre realta
         </h2>
       </div>
 
