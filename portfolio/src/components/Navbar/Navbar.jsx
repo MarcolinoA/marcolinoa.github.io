@@ -25,7 +25,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav-items">
-            <NavLink exact to="/" className={`nav-links`} activeClassName="active">
+            <NavLink exact to="/projects" className={`nav-links`} activeClassName="active">
               Projects
             </NavLink>
           </li>

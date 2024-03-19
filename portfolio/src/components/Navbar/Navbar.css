@@ -35,9 +35,3 @@
 .nav-links:active {
   border-bottom: 2px solid white; /* Stile del bordo quando il link è in focus o attivo */
 }
-
-.nav-links:focus {
-  font-family: "Comic Neue", cursive;
-  font-weight: 700;
-  font-style: italic;
-}

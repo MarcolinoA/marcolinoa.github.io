@@ -1,0 +1,103 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+
+.projects-title {
+  color: #0f2167;
+  font-size: 40px;
+  margin: 40px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.first-image {
+  position: relative;
+}
+
+.project-img,
+.studying-img {
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.project-img {
+  margin: 0 20px;
+}
+
+.studying-img {
+  margin: 0 20px;
+}
+
+.first-content {
+  width: 600px;
+  height: 450px; 
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgb(255, 55, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+  flex-direction: column;
+}
+
+.second-image {
+  position: relative; /* Aggiungi questo per definire la posizione relativa */
+}
+
+.second-content {
+  width: 600px;
+  height: 450px; 
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(25, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+  flex-direction: column;
+}
+
+.first-content:hover,
+.second-content:hover {
+  opacity: 1;
+}
+
+.first-content h1,
+.second-content h1 {
+  font-size: 30px;
+  color: #0f2167;
+  margin-bottom: 0;
+}
+
+.first-content p,
+.second-content p {
+  font-size: 24px;
+  color: #0f2167;
+  margin-bottom: 0;
+}
+
+.first-content > *,
+.second-content > * {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+
+.first-content:hover > *,
+.second-content > * {
+  transform: translateY(0px);
+}

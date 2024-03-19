@@ -12,7 +12,7 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  margin: 30px 0px;
+  margin: 30px 0px 10px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,11 +28,12 @@
   color: #0f2167;
   font-size: 24px;
   margin: 0px;
+  margin-top: 10px;
 }
 
 .p,
 .tools-list {
-  width: 250px;
+  width: 300px;
   height: 70px;
   font-size: 20px;
 }

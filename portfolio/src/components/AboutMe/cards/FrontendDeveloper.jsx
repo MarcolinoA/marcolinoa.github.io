@@ -11,8 +11,8 @@ const FrontendDeveloper = () => {
         </div>
         <h4 className="title">Frontend Developer</h4>
         <p className="p">
-          I’m starting to develop my first projects from scratch and publish
-          them
+          I recently started to develop my projects from scratch trying to sell
+          myself to small businesses or freelancers
         </p>
       </div>
       <div className="lenguages-container">
