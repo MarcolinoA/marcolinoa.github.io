@@ -12,92 +12,70 @@
 }
 
 .image-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.first-image {
   position: relative;
-}
-
-.project-img,
-.studying-img {
-  max-width: 600px;
-  max-height: 450px;
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .project-img {
-  margin: 0 20px;
-}
-
-.studying-img {
-  margin: 0 20px;
-}
-
-.first-content {
   width: 600px;
-  height: 450px; 
-  top: 0;
-  left: 0;
+  height: 500px;
+}
+
+.first-image {
+  justify-self: end;
+}
+
+.first-content,
+.second-content {
   position: absolute;
-  background-color: rgb(255, 55, 255, 0.6);
+  background-color: rgb(15, 33, 103, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   opacity: 0;
   transition: 0.6s;
-  flex-direction: column;
-}
-
-.second-image {
-  position: relative; /* Aggiungi questo per definire la posizione relativa */
-}
-
-.second-content {
-  width: 600px;
-  height: 450px; 
   top: 0;
   right: 0;
-  position: absolute;
-  background-color: rgba(25, 255, 255, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: 0.6s;
-  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-self: center;
 }
 
-.first-content:hover,
-.second-content:hover {
+.sx-image {
+  position: relative;
+  width: 600px;
+  height: 500px;
+}
+
+.dx-image {
+  position: relative;
+  width: 600px;
+  height: 500px;
+}
+
+.second-content:hover,
+.first-content:hover {
   opacity: 1;
 }
 
-.first-content h1,
-.second-content h1 {
-  font-size: 30px;
-  color: #0f2167;
-  margin-bottom: 0;
+.second-content h1,
+.first-content h1 {
+  font-size: 40px;
+  color: white;
 }
 
-.first-content p,
-.second-content p {
+.second-content p,
+.first-content p {
   font-size: 24px;
-  color: #0f2167;
-  margin-bottom: 0;
+  color: white;
 }
 
-.first-content > *,
-.second-content > * {
+.second-content > *,
+.first-content > * {
   transform: translateY(25px);
   transition: transform 0.6s;
-}
-
-.first-content:hover > *,
-.second-content > * {
-  transform: translateY(0px);
 }

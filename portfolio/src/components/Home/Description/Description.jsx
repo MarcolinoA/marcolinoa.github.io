@@ -48,7 +48,7 @@ const Description = () => {
         </div>
       </div>
 
-      <div className="image-container">
+      <div className="home-image-container">
         <img src={coding_image} alt="" className="coding-img" />
       </div>
     </div>

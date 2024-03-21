@@ -3,13 +3,6 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
-  const [click, setClick] = useState(true);
-
-  const handleClick = () => {
-    setClick(!click);
-    className="active"
-  };
-
   return (
     <nav className="navbar">
       <div className="nav-container">

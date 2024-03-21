@@ -6,3 +6,12 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+
+@media screen and (max-width: 960px) {
+  .pages {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
