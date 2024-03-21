@@ -37,6 +37,11 @@
 
 @media screen and (max-width: 960px) {
   .navbar {
-    width: 100vh;
+    width: 100%;
+  }
+
+  .nav-items {
+    list-style-type: none;
+    padding: 20px;
   }
 }

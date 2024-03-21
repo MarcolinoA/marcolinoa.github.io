@@ -46,3 +46,18 @@
 .tool {
   list-style-type: none;
 }
+
+@media screen and (max-width: 960px) {
+
+  .lenguages-container .title {
+    margin-top: 20px;
+  }
+
+  .tools-container .title {
+    margin: -10px;
+  }
+
+  .tools-container {
+    margin-top: -20px;
+  }
+}

@@ -55,3 +55,29 @@
   font-size: 20px;
   margin: 0px 300px;
 }
+
+@media screen and (max-width: 960px) {
+  .aboutme-title {
+    font-size: 40px;
+  }
+
+  .aboutme-presentation {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .presentation-title {
+    font-size: 30px;
+  }
+
+  .presentation-desc {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .skills-container {
+    margin: 0;
+    flex-direction: column;
+    border: none;
+  }
+} 
